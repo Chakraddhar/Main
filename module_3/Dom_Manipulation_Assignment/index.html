@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Student Registration System - Register and display student information.">
+    <title>Student Registration System.</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Student Registration System.</h1>
+        <p>Register student details, view, edit, and delete records easily.</p>
+    </header>
+    <main>
+        <form id="studentform">
+            <div class="studentname">
+                <label for="name">Student Name:</label><br/>
+                <input type="text" id="name" required /><br/><br/>
+            </div>
+            <div class="studentid">
+                <label for="studentId">Student ID:</label><br/>
+                <input type="text" id="studentId" required /><br/><br/>
+            </div>
+            <div class="Email">
+                <label for="email">Email ID:</label><br/>
+                <input type="email" id="email" required /><br/><br/>
+            </div>
+            <div class="contactno">
+                <label for="contact">Contact No:</label><br/>
+                <input type="tel" id="contact" required /><br/><br/>
+            </div>
+            <button type="submit" class="btn">Register Student</button>
+        </form>
+        <section id="display-students">
+            <h2>Registered Students</h2>
+            <div id="studentList">
+                <table id="student-table">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>ID</th>
+                            <th>Email</th>
+                            <th>Contact</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableBody">
+
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+    <script src="registerform.js"></script>
+</body>
+</html>
