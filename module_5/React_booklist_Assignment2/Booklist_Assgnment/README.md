@@ -1,3 +1,30 @@
+https://github.com/Chakraddhar/Main/tree/main/module_5/React_booklist_Assignment2/Booklist_Assgnment
+
+
+First there will be home page in which you will have details mentioned to do in assignment.
+
+In browse page you will have books listed and if you click on any book it will redirect to bookdetails of the clicked book.
+And when you search for any book in search bar that book will be displayed in browse book page.
+
+When you want to add new book details like a new book go to Add Book Page in navbar in home page then you will direct to that page in where you should fill some details regarding the book details which you want to add so after adding when you click add book button in that page that will redirect to browse books page and in that page your new book book details will be added.
+
+Finally if you go for any other routes other than which we dont want to go then you will get a error.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
