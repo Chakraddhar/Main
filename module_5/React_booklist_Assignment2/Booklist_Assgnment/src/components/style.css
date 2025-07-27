@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 0;
+}
+
+.books-card{
+    width: 300px;
+    height: 450px;
+    background-color: #fff;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    overflow: hidden;
+}
+
+.books-card:hover{
+    transform: scale(1.1);
+}
+
+.book-cover{
+    width: 85%;
+}
+
+.book-details{
+    padding: 0;
+}
+
+.book-title{
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.book-author{
+    font-size: 0.9em;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.book-desc{
+    color: #777;
+}
+
+.bookList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.search{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.search-input{
+    align-items: center;
+    width: 400px;
+    margin: 10px;
+}
+
+.nav-bar {
+  background-color: wheat;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-icon {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-icon:hover {
+  text-decoration: underline;
+}
+
+.heading{
+    color: black;
+    text-align: center;
+}
+
+.categories{
+    color: blue;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+
+.book-card{
+    width: 250px;
+    height: 250px;
+    background-color: #fff;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    overflow: hidden;
+}
+
+.book-card:hover{
+    transform: scale(1.1);
+}
+
+.bookList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; 
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    list-style-type: none;
+    margin: 10px;
+    font-size: medium;
+}
